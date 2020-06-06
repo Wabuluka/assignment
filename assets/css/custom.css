@@ -17,7 +17,7 @@ article{
 }
 .home .home-content{
     color: #fff;
-    margin-top: 50vh;
+    margin-top: 40vh;
 }
 footer{
     background: #333;
@@ -26,8 +26,20 @@ footer{
     min-height: 100px;
 }
 @media screen and (max-width: 992px) {
+    .home{
+        height: 40vh;
+        background-size: 100% 100%;
+    }
     .home .home-content{
         color: #fff;
-        margin-top: 30vh;
+        margin-top: 20vh;
     } 
+    .home .home-content h1 a{
+        padding: 5px;
+        color: rgb(255, 196, 0);
+        background-color: rgba(29, 9, 119, 0.644);
+    }
+    .home .home-content p{
+        display: none;
+    }
 }
