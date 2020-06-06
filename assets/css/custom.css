@@ -1,3 +1,12 @@
+nav ul li a{
+    font-weight: 900;
+    color: #B7251E !important;
+    
+}
+nav ul li a:hover{
+    color: #fff !important;
+    transition: 0.4s !important;
+}
 #main{
     min-height: 90vh;
 }
@@ -19,11 +28,55 @@ article{
     color: #fff;
     margin-top: 40vh;
 }
+.home .home-content h1 a{
+    color: #B7251E;
+    font-weight: 900;
+}
+.home .home-content h1 a:hover{
+    color: rgb(38, 52, 175);
+    text-decoration: none;
+    transition: 0.4s;
+}
+.home .home-content small{
+    background: rgba(38, 52, 175, 0.74);
+    padding: 5px;
+    color: #fff;
+}
+.card h5 a{
+    color: #B7251E;
+    
+}
+.card h5 a:hover{
+    color: rgb(38, 52, 175);
+    text-decoration: none;
+    transition: 0.4s;
+}
+.card:hover{
+    opacity: 0.9;
+}
+.sidebar ul li a{
+    color: #B7251E;
+    font-weight: 800;
+}
+.sidebar ul li a:hover{
+    color: rgb(38, 52, 175);
+    text-decoration: none;
+    transition: 0.4s;
+}
 footer{
     background: #333;
     color: #fff;
     padding-top: 10px;
     min-height: 100px;
+}
+footer small a{
+    color: #B7251E;
+    font-weight: 700;
+}
+footer small a:hover{
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    transition: 0.4s;
 }
 @media screen and (max-width: 992px) {
     .home{
